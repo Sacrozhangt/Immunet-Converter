@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-#This will be for editing Dr Schreibers patient data CSV file into the proper file they require.
+#This will be for editing a patient data CSV file into the proper files that Immunet requires.
 
 import pandas as pd
 from datetime import date
@@ -15,7 +15,7 @@ def dataframesplitter (InputFrame):
 
     Returns
     -------
-    two Pandas Dataframes containing data entry cells required by MDImmunet
+    two formatted Pandas Dataframes containing data entry cells required by MDImmunet
     '''
 
     #initalizes two arrays with the labels to be moved over
@@ -51,12 +51,12 @@ def filenames ():
     '''
     today = date.today()
     datestring = today.strftime("%m%d%Y")
-    CL = '161143523_CL_' + datestring + '_01'
-    IMM = '161143523_IMM_' + datestring + '_01'
+    CL = '161143523_CL_' + datestring + '_01.csv'
+    IMM = '161143523_IMM_' + datestring + '_01.csv'
     return CL, IMM
 
 
-#create a template CSV that they will all enter data into (have both the patient and immunization information within this)
+#read a template CSV that users will enter data into
 inFile = pd.read_csv('INPUT_FILE.csv', dtype = "string", index_col='Record Identifier' )
 
 #creates the two separate files and two filenames
