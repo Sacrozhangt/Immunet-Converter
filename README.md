@@ -7,8 +7,8 @@ This is a small program written in python for small practices and physicians in 
 
 The program splits the input file into two separate files, organizes the columns, adds double quotation marks to each cell, and names the files according to the current date. 
 
-Download program directly: https://github.com/Sacrozhangt/Immunet-Converter/raw/main/CSV%20converter/CSV_Converter_Immunet.exe
+Click this to download the program: https://github.com/Sacrozhangt/Immunet-Converter/raw/main/CSV%20converter/CSV_Converter_Immunet.exe
 
-Download input file directly: https://github.com/Sacrozhangt/Immunet-Converter/raw/main/CSV%20converter/INPUT_FILE.xlsx
+Click this to download the input template: https://github.com/Sacrozhangt/Immunet-Converter/raw/main/CSV%20converter/INPUT_FILE.xlsx
 
-Download instructions file directly: https://github.com/Sacrozhangt/Immunet-Converter/raw/main/MD_Immunet_COVID_19_immunization_reporting_protocol.pdf
+Click this to download the detailed instructions: https://github.com/Sacrozhangt/Immunet-Converter/raw/main/MD_Immunet_COVID_19_immunization_reporting_protocol.pdf
