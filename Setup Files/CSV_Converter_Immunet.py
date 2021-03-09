@@ -39,7 +39,11 @@ def dataframesplitter (InputFrame):
     new_pts = InputFrame.reindex (columns = pts_req)
     new_imm = InputFrame.reindex (columns = imm_req)
 
-    return new_pts, new_imm
+
+    new_pts_filtered = new_pts.dropna(how = 'all')
+    new_imm_filtered = new_imm.dropna(how = 'all')
+
+    return new_pts_filtered, new_imm_filtered
 
 def filenames ():
     '''
