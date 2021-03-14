@@ -55,8 +55,8 @@ def filenames ():
     '''
     today = date.today()
     datestring = today.strftime("%m%d%Y")
-    CL = '161143523_CL_' + datestring + '_01.csv'
-    IMM = '161143523_IMM_' + datestring + '_01.csv'
+    CL = 'ORGIDNUMBER_CL_' + datestring + '_01.csv'
+    IMM = 'ORGIDNUMBER_IMM_' + datestring + '_01.csv'
     return CL, IMM
 
 
